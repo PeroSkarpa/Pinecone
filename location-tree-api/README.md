@@ -19,5 +19,5 @@ A Node.js RESTful API for managing a tree structure of locations. This API allow
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/PeroSkarpa/Pinecone.git>
 cd location-tree-api
