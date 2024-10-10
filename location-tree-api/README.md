@@ -16,8 +16,24 @@ Requirements
 
 Setup Instructions
 
-1. Clone the repository
+1 Clone the repository
 
 ```bash
 git clone <https://github.com/PeroSkarpa/Pinecone.git>
 cd location-tree-api
+
+2 Install dependencies
+
+npm install
+
+3 Run the API
+
+node app.js
+
+4 Testing the API
+
+Import the Postman Collection
+Open Postman.
+Click on Import.
+Select the Postman collection file (location-tree-api.postman_collection.json) included in this repository.
+Once imported, you'll see a list of pre-configured requests for all the API endpoints.
