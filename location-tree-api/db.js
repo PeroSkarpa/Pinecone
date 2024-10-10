@@ -1,6 +1,6 @@
 // db.js
 const sqlite3 = require('sqlite3').verbose();
-const db = new sqlite3.Database(':memory:');  // For in-memory use (you can specify a file to persist data)
+const db = new sqlite3.Database(':memory:');  // For in-memory use
 
 // Initialize the database with the `locations` table
 db.serialize(() => {
